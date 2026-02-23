@@ -1,0 +1,23 @@
+artifact_path: /Users/kalle.tolonen/test/koulu/mlops/iris_mlflow/mlruns/1/models/m-6b544761dfb84bccaae3a6bd87f61cc0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-6b544761dfb84bccaae3a6bd87f61cc0
+model_size_bytes: 1805666
+model_uuid: m-6b544761dfb84bccaae3a6bd87f61cc0
+prompts: null
+run_id: fe3cfdc67dd94167b0e1322f7f069e4d
+utc_time_created: '2026-02-23 12:16:09.237525'
